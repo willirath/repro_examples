@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # get HadISST data
-mkdir -p data
+mkdir -p input_data
 curl \
-  -o "data/HadISST_sst.nc.gz" \
+  -o "input_data/HadISST_sst.nc.gz" \
   "https://www.metoffice.gov.uk/hadobs/hadisst/data/HadISST_sst.nc.gz"
-gunzip data/HadISST_sst.nc.gz
+gunzip input_data/HadISST_sst.nc.gz
