@@ -1,0 +1,13 @@
+name: repro_examples
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3
+  - dask
+  - matplotlib
+  - netCDF4
+  - numpy
+  - seaborn
+  - xarray
+  - zarr
