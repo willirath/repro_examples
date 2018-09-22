@@ -4,4 +4,4 @@
 mkdir -p data
 curl \
   -o "data/HadISST_sst.nc" \
-  "http://www.metoffice.gov.uk/hadobs/hadisst/data/HadISST_sst.nc.gz"
+  "https://www.metoffice.gov.uk/hadobs/hadisst/data/HadISST_sst.nc.gz"
