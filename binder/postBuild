@@ -3,5 +3,6 @@
 # get HadISST data
 mkdir -p data
 curl \
-  -o "data/HadISST_sst.nc" \
+  -o "data/HadISST_sst.nc.gz" \
   "https://www.metoffice.gov.uk/hadobs/hadisst/data/HadISST_sst.nc.gz"
+gunzip data/HadISST_sst.nc.gz
