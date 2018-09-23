@@ -6,3 +6,7 @@ curl \
   -o "input_data/HadISST_sst.nc.gz" \
   "https://www.metoffice.gov.uk/hadobs/hadisst/data/HadISST_sst.nc.gz"
 gunzip input_data/HadISST_sst.nc.gz
+
+# clean up
+rm -rfv binder/
+rm -rfv conda-bld/
